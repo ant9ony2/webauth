@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+.one {position:fixed; left:10px; top:50px}
+</style>
+</head>
+<body>
+<img class="one"src="web1.jpeg" alt="1st pic">
+<img class="two" src="web2.jpeg" alt="2nd pic">
+<img class="three" src="web3.jpeg" alt="3rd pic">
+<img class="four" src="web4.jpeg" alt="4th pic">
+<img class="five" src="web5.jpeg" alt="5th pic">
+<img class="six" src="web6.jpeg" alt="6th pic">
+</body>
+</html>
