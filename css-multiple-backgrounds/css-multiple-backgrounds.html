@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds</title>
+<style>
+html {background: url(background.jpg) no-repeat center fixed; 
+        background-size: cover;}
+#background {height:500px; width:600px; 
+background-image:url(hat.jpg), url(face.jpg), url(tileable.jpg);
+background-position: 375px 175px, bottom right, center;
+background-repeat: no-repeat,no-repeat,repeat;
+background-size: 150px, 250px, auto
+}
+#background2 {height:500px; width:600px;
+background: url(hat.jpg) 375px 175px no-repeat, url(face.jpg) bottom right no-repeat, url(tileable.jpg) center repeat; 
+background-size: 150px, 250px, auto}
+#hero-image { background: url(man.jpeg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative}
+#hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;}
+
+</style>
+</head>
+<body>
+<div id="hero-image">
+<div id="hero-text">
+    <h1>
+    My Name is Anthony Mish
+</h1>
+</div>
+</div>
+    <div id="background">
+
+</div>
+<div id="background2">
+
+</div>
+</body>
+</html>
